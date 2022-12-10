@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "author": "jrson83 <me@jrson.de>",
+  "license": "MIT",
+  "preset": "preset.ts",
+  "devDependencies": {
+    "@preset/core": "^0.7.2",
+    "@types/node": "^18.11.13"
+  }
+}
