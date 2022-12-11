@@ -1,10 +1,33 @@
 {
   "private": true,
-  "author": "jrson83 <me@jrson.de>",
   "license": "MIT",
+  "author": "Jörn Spangenberg <github@jrson.me> (https://jrson.me)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrson83/inertia-preact-preset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrson83/inertia-preact-preset/issues"
+  },
+  "keywords": [
+    "inertia",
+    "inertiajs",
+    "inertiajs-adapter",
+    "laravel",
+    "preact",
+    "preactjs",
+    "preset",
+    "ssr"
+  ],
   "preset": "preset.ts",
+  "scripts": {
+    "fmt": "prettier --write '**/*.{ts,tsx,js,jsx}' ./*.md",
+    "fmt:check": "prettier --check '**/*.{ts,tsx,js,jsx}' ./*.md"
+  },
   "devDependencies": {
     "@preset/core": "^0.7.2",
-    "@types/node": "^18.11.13"
+    "@types/node": "^18.11.13",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
   }
 }
