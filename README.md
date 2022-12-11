@@ -7,7 +7,7 @@
 </p>
 
 <h2 align="center">Inertia.js Preact preset for Laravel</h2>
-<pre><div align="center">npx @preset/cli apply jrson83:inertia-preact-preset</div></pre>
+<pre><div align="center">npx @preset/cli apply jrson83/inertia-preact-preset</div></pre>
 
 <br />
 
